@@ -1,0 +1,25 @@
+main{
+    max-width: 1100px;
+    min-width: 800px;
+    
+}
+
+section{
+    border: 1px solid rgb(185, 9, 9);
+    width: 60%;
+}
+
+section article{
+    width: 45%;
+    border: 1px solid black;
+    display: inline-block;
+
+}
+aside{
+    width: 30%;
+}
+
+section,aside{
+    display: inline-block;
+    vertical-align: top;
+}

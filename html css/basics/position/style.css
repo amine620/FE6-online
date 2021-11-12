@@ -1,0 +1,125 @@
+
+/* *{
+    margin: auto;
+} */
+body{
+    height: 200vh;
+}
+header{
+    background-color: coral;
+    height: 90px;
+    font-size: 3rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.parent1{
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    margin:auto;
+}
+
+.parent1 .child1{
+    border: 1px solid black;
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top:80px;
+    right: 100px;
+}
+
+.parent1 .child2{
+    border: 1px solid black;
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(55, 0, 255);
+}
+
+.parent1 .child3{
+    border: 1px solid black;
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(9, 255, 0);
+}
+/* absolut position */
+
+.parent2{
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    margin:auto;
+    position: relative;
+}
+
+.parent2 .child1{
+    border: 1px solid black;
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+   top: 0;
+    right: 0;
+}
+
+.parent2 .child2{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(55, 0, 255);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.parent2 .child3{
+    border: 1px solid black;
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(9, 255, 0);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.parent2 .child4{
+    border: 1px solid black;
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 238, 255);
+     position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+
+
+.fixed{
+     border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 76);
+    position: fixed;
+    right: 0;
+    top: 200px;
+}
+
+span article{
+    display: none;
+}
+
+span:hover article{
+    display: block;
+    background-color: cornflowerblue;
+    position: absolute;
+}
+
+span:hover{
+    cursor: pointer;
+}

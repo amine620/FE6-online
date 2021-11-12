@@ -1,0 +1,122 @@
+Exercice 3
+Ecrire un algorithme qui demande un nombre de départ, et qui ensuite affiche les dix nombres suivants. Par exemple, si l'utilisateur entre le nombre 17, le programme affichera les nombres de 18 à 27.
+
+------------------------------------------------------------------------------------ 
+Exercice 5
+Ecrire un algorithme qui demande un nombre de départ, et qui ensuite écrit la table de multiplication de ce nombre, présentée comme suit (cas où l'utilisateur entre le nombre 7) :
+Table de 7 :
+7 x 1 = 7
+7 x 2 = 14
+7 x 3 = 21
+…
+7 x 10 = 70
+
+algorithme:multiplication
+variables:nombre,i:entier
+debut
+ecrire('donner un nombre')
+lire(nombre)
+
+pour(i<--1 a 10 i<--i+1)
+  ecrire(nombre "x" i "=" nombre*i)
+finpour
+fin
+------------------------------------------------------------------------------------
+Exercice 6
+Ecrire un algorithme qui demande un nombre de départ, et qui calcule la somme des entiers jusqu’à ce nombre. Par exemple, si l’on entre 5, le programme doit calculer :
+1 + 2 + 3 + 4 + 5 = 15
+NB : on souhaite afficher uniquement le résultat, pas la décomposition du calcul.
+
+
+variables:nombre,somme:entier
+somme<--0
+
+ecrire('donner un nombre')
+lire(nombre)
+
+pour(i->1 a nombre i<--i+1)
+somme<--somme+i
+0<--0+1 ===>somme=1
+1<-- 1+2===>somme=3
+3<---3+3====>somme=6
+6<---6+4=====>somme=10
+finpour
+ 
+
+------------------------------------------------------------------------------------
+Exercice 7
+Ecrire un algorithme qui demande un nombre de départ, et qui calcule sa factorielle.
+NB : la factorielle de 8, notée 8 !, vaut
+1 x 2 x 3 x 4 x 5 x 6 x 7 x 8
+variables:nombre,f:entier
+f<--1
+
+ecrire('donner un nombre')
+lire(nombre)
+
+pour(i->1 a nombre i<--i+1)
+f<--f+i
+
+1<-- 1x1===>f=1
+1<-- 1x2===>f=2
+3<---3x2====>f=6
+6<---6x4=====>f=24
+finpour
+
+----------------------------------------------------------------------------------------
+Exercice 8
+Ecrire un algorithme qui demande successivement 20 nombres à l’utilisateur, et qui lui dise ensuite quel était le plus grand parmi ces 20 nombres :
+Entrez le nombre numéro 1 : 12
+Entrez le nombre numéro 2 : 14
+etc.
+Entrez le nombre numéro 20 : 6
+Le plus grand de ces nombres est  : 14
+Modifiez ensuite l’algorithme pour que le programme affiche de surcroît en quelle position avait été saisie ce nombre :
+C’était le nombre numéro 2
+
+variables:nombre,max,i,position:entier
+
+max<--0
+
+pour(i<--1  a 20  i<--i+1)
+
+ecrire('Entrez le nombre numéro : ',i)
+lire(nombre)
+si(nombre>max) alors
+
+max<--nombre
+position<--i
+finsi
+
+
+finpour
+
+ecrire('plus grand nombre est',max)
+ecrire('la position  est',position)
+
+-------------------------------------------------------------------------------------
+Exercice 9
+Réécrire l’algorithme précédent, mais cette fois-ci on ne connaît pas d’avance combien l’utilisateur souhaite saisir de nombres. La saisie des nombres s’arrête lorsque l’utilisateur entre un zéro.
+
+
+variables i,nombre,max,position:entier
+
+
+max<--0
+i<--0
+
+tantque(nombre<>0)
+
+ecrire('Entrez le nombre numéro : ',i)
+lire(nombre)
+si(nombre>max) alors
+
+max<--nombre
+position<--i
+finsi
+i<--i+1
+
+fintantque
+
+ecrire('plus grand nombre est',max)
+ecrire('la position  est',position)

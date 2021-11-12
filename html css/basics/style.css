@@ -1,0 +1,50 @@
+#firstHeadline{
+    color:red;
+}
+
+.div1  h1{
+    color: green;
+}
+
+.div1 h1{
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.div2{
+    border: 1px solid black;
+}
+.div2 h1,h2{
+    border: 1px solid black;
+    width: 500px
+}
+
+/* .div2 h2{
+    float: right;
+} */
+
+.div3{
+    border: 1px solid black;
+    width: 600px;
+    margin-top: 40px;
+}
+.div3 p{
+    border: 3px dotted black;
+    width: 150px;
+    display: inline-block;
+    margin-left: 20px;
+    padding-top:10px ;
+}
+
+.div4{
+    margin-top: 40px;
+    border: 1px solid black;
+    font-size: 10px;
+}
+
+.div4 #paragraph1{
+      font-size: 32px;
+}
+.div4 #paragraph2{
+    font-size: 2em;
+}

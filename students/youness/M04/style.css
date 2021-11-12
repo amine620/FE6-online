@@ -1,0 +1,112 @@
+body{
+    background-image: url(fond.png);
+    font-family: unset;
+}
+/***********header*************/
+header{
+    margin-top: 45px;
+    background-color: #25B3B4;
+    text-align: center;
+    border: 3px solid #0e9292
+}
+
+header img{
+    width: 150px;
+    height: 70px;
+}
+
+header nav{
+    margin-bottom: 15px;
+    font-size: small;
+}
+
+header nav a{
+    margin: 15px;
+    color: white;
+}
+
+/************div**********/
+
+div{
+    margin:auto;
+    max-width: 700px;
+    text-align: center;
+}
+
+/***************************main************************/
+
+main{
+    margin: auto;
+    margin-top: 50px;
+    max-width: 1100px;
+    min-width: 800px;
+    text-align: center;
+}
+
+/*********main section**********/
+
+section{
+    padding-top: 15px;
+    background-color: #B6DEDC;
+    width: 69%;
+    display: inline-block;
+}
+
+section article img{
+    width: 100px;
+    float: left;
+    border-radius: 50%;
+    margin: 10px;
+}
+section article button{
+    background-color: #25B3B4;
+    width: 120px;
+    height: 30px;
+    margin-left: 200px;
+}
+section article button p{
+    color: white;
+    margin: 0;
+}
+
+#article1{
+    text-align: center;
+    width: 40%;
+    display: inline-block;
+}
+
+#article2{
+    text-align: center;
+    width: 40%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*********main div**********/
+
+main div{
+    border: 3px solid #0e9292;
+    margin-left: 20px;
+    display: inline-block;
+    width: 28%;
+    background-color: #25B3B4;
+}
+
+main div img{
+    float: right;
+    width: 120px;
+    height: 120px;
+}
+
+/**********footer**********/
+
+footer{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 1100px;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}

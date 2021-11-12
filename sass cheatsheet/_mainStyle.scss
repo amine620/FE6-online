@@ -1,0 +1,38 @@
+$color-primary: blue;
+$color-danger: red;
+$color-warning: orange;
+$color-secondary: gray;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: $color-primary;
+  padding: 60px;
+
+//    ul
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+    li {
+
+      a {
+        color: $color-secondary;
+        text-decoration: none;
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+.basicStyle{
+        display: inline-block;
+        padding: 20px;
+        margin: 10px 0;
+        color: white;
+        text-decoration: none;
+}

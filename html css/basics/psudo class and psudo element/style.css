@@ -1,0 +1,78 @@
+/* css psudo element */
+/* selectors */
+
+/* after before  insert something after element */
+
+/* p::before{
+    content:""
+} */
+
+
+/* change color of first letter */
+/* p::first-letter{
+    color: red;
+} */
+
+
+/* chnage color of first line */
+/* p::first-line{
+    color:green
+} */
+/* 
+
+
+change color of marker list
+li::marker{
+    color: red;
+}
+
+
+apply this css at selected element
+p::selection{
+    background-color: yellow;
+    color: red;
+} */
+
+/* css psudo classes */
+/* selectors */
+
+/* a:active{
+    background-color: yellow;
+} */
+
+/* p:empty{
+    background-color: red;
+} */
+
+
+
+ #div2 p:first-child{
+   color: red;
+}
+#div2 :last-child{
+    color: green;
+}
+
+/* input:focus{
+    width: 400px;
+}
+
+input:hover{
+    height: 100px;
+    width: 100px;
+} */
+input:invalid{
+    border:1px red solid
+}
+
+
+#div2 :nth-child(4){
+  color: red;
+}
+
+a:visited{
+    color: red;
+}
+a{
+    display: block;
+}

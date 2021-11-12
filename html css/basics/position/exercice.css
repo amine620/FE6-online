@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+header{
+    margin: 0;
+    background-color: darkkhaki;
+    position: relative;
+}
+.list{
+     background-color: rgb(138, 131, 34);
+
+}
+header nav ul{
+    font-size: 30px;
+}
+header nav ul .nav-list{
+    display: inline-block;
+    margin: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li .list{
+    display: none;
+}
+
+nav ul .nav-list:hover .list{
+  display: block;
+  position: absolute;
+  top: 79px;
+
+}
+nav ul .nav-list:hover{
+     background-color: rgb(138, 131, 34);
+
+}
+nav ul .nav-list{
+    border: 1px solid black;
+    padding:0 0 20px;
+}
+
+.list ul li{
+    list-style: none;
+}
+.list ul li:hover {
+background-color: darkkhaki;
+
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- method 1 using source file -->
+    <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+
+    <!-- method 2 using CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      body{
+        height: 300vh;
+      }
+      #flexDiv{
+        border: 3px dotted blueviolet;
+        height: 300px;
+      }
+      #flexDiv h1{
+        border: 2px dotted red
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- ALIGNEMENT AND TRANSFORMATION -->
+
+    <div class="container">
+      <p class="text-start text-lowercase">align To Left</p>
+      <p class="text-center text-uppercase">align to center</p>
+      <p class="text-end text-capitalize">align to right</p>
+      <hr />
+
+      <!-- FLOATING ELEMENTS -->
+      <div class="float-end">div floated right</div>
+      <div>div floated left</div>
+
+      <!-- CLEAR FLOAT  -->
+      <div class="clearfix"></div>
+
+      <hr />
+
+      <!-- LISTS -->
+      <ul class="list-unstyled">
+        <li>item one</li>
+        <li>item tow</li>
+        <li>item three</li>
+        <li>item four</li>
+      </ul>
+      <hr />
+
+      <!-- UNLINE LIST ELEMENTS -->
+
+      <ul class="list-inline">
+        <li class="list-inline-item">item one</li>
+        <li class="list-inline-item">item tow</li>
+        <li class="list-inline-item">item three</li>
+        <li class="list-inline-item">item four</li>
+      </ul>
+
+      <hr />
+
+      <!-- tag code -->
+      <code> &lt;h1&gt; hello world &lt;/h1&gt; </code>
+      <br />
+      <hr />
+      to copy text click <kbd>ctrl</kbd> + <kbd>c</kbd>
+      <hr />
+      <!-- COLORS -->
+      <p class="text-primary">HELLO WORLD</p>
+      <p class="text-success">HELLO WORLD</p>
+      <p class="text-info">HELLO WORLD</p>
+      <p class="text-warning">HELLO WORLD</p>
+      <p class="text-danger">HELLO WORLD</p>
+      <!-- BACKGROUND COLOR -->
+
+      <p class="bg-primary">HELLO WORLD</p>
+      <p class="bg-success">HELLO WORLD</p>
+      <p class="bg-info">HELLO WORLD</p>
+      <p class="bg-warning">HELLO WORLD</p>
+      <p class="bg-danger">HELLO WORLD</p>
+      <hr />
+      <!-- BUTTON -->
+      <button class="btn btn-primary">primary</button>
+      <button class="btn btn-danger">danger</button>
+      <button class="btn btn-warning">warning</button>
+      <button class="btn btn-success">success</button>
+      <button class="btn btn-secondary">secondary</button>
+      <hr />
+      <!-- BUTTON SIZE -->
+       <button class="btn btn-primary btn-sm">primary</button>
+      <button class="btn btn-danger">danger</button>
+      <button class="btn btn-warning btn-lg">warning</button>
+      <button class="btn btn-success">success</button>
+      <button class="btn btn-secondary">secondary</button>
+   
+      <!-- FORM -->
+
+      <form action="" class="form-group mt-5">
+        <h2 class="text-secondary text-center">login form</h2>
+        <input class="form-control mt-2" type="text" placeholder="username">
+        <input class="form-control mt-2" type="text" placeholder="email">
+        <input class="form-control mt-2" type="password" placeholder="password">
+        <select name="" id="" class="form-control mt-2">
+          <option value="M">M</option>
+          <option value="F">F</option>
+        </select>
+        <button class="btn btn-primary mt-2 form-control">login</button>
+      </form>
+      <hr>
+      
+  <!-- tables -->
+  <table class="table  table-striped table-hover">
+    <tr class="table-dark">
+      <td>first name</td>
+      <td>last name</td>
+      <td>age</td>
+    </tr>
+    <tr>
+      <td>Lorem, ipsum dolor.</td>
+      <td>Lorem, ipsum.</td>
+      <td>30</td>
+    </tr>
+     <tr>
+      <td>Lorem, ipsum dolor.</td>
+      <td>Lorem, ipsum.</td>
+      <td>31</td>
+    </tr>
+     <tr>
+      <td>Lorem, ipsum dolor.</td>
+      <td>Lorem, ipsum.</td>
+      <td>32</td>
+    </tr>
+  </table>
+<hr>
+
+<!-- LIST ITEM -->
+<ul class="list-group">
+  <li class="list-group-item active">contact list</li>
+  <li class="list-group-item">contact 1</li>
+  <li class="list-group-item">contact 2</li>
+  <li class="list-group-item">contact 3</li>
+  <li class="list-group-item">contact 4</li>
+</ul>
+
+<hr>
+<!-- FLEXBOX -->
+<div id="flexDiv" class="d-flex align-items-center justify-content-center">
+  <h1 class="text-secondary align-self-end">box 1</h1>
+  <h1 class="text-secondary">box 2</h1>
+  <h1 class="text-secondary align-self-start">box 3</h1>
+</div>
+
+
+</div>
+<!-- GRID SYSTEM -->
+
+    <!-- for animation and tooltips..etc -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

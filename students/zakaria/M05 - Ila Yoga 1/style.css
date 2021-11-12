@@ -1,0 +1,202 @@
+
+html{
+    border: 2px solid rgb(175, 19, 175);
+}
+@font-face {
+    font-family:"Kaushan Script" ;
+    src: url(Demo_ConeriaScript.ttf);
+}
+@font-face {
+    font-family:"Playfair Display";
+    src: url(Keira\ -\ Free.otf);
+}
+
+body{
+    background-color: white;
+    margin:0;
+}
+main{
+    /* max-width: 700px;
+    margin: 0 auto; */
+    /*float: left;*/
+}
+/***********Header***********/
+header{
+    background-image: url(img/fond.jpg);
+    background-position: bottom;
+    text-align: center;
+    background-size: cover;
+    height: 300px;
+    margin-top: -50px;
+    width: 100%;
+}
+
+
+header nav  {
+    font-size: 1.3em;
+    margin-top: 50px;
+}
+header nav ul{
+text-align: center;
+padding-left: 6px;    
+}
+header nav li{
+    display: inline-block;
+    margin-left: 10px;
+    color: white;
+    font-family:"Kaushan Script" ;
+    font-size: 1em;
+    padding-bottom: 20px;
+    padding-top: 45px;
+    padding-left:25px;
+}
+header nav a{
+    color:white;
+    text-decoration: none;
+
+}
+/*************************/
+.fas{
+    margin-right: 0%;
+    
+    
+}
+
+/************nav*****/
+
+nav p{
+    color: rgb(255, 253, 253);
+    font-size: 1em;
+    padding-top: 20px;
+
+}
+nav h1{
+    font-family:"Kaushan Script" ;
+    color: rgba(255, 255, 255, 0.986);
+    font-size: 2em;
+    padding-bottom: 20px;
+
+}
+
+/**************************/
+
+
+/*******Section1*********/
+
+
+.section1{
+    margin-left: 10px;
+   margin-right: 10px;
+}
+.section1 .article1{
+    margin-bottom: 30px;
+}
+.section1 .article1 h3{
+    text-align: center;
+    color: gray;
+}
+
+.section1 .article1 p{
+    color: gray;
+    font-family: "Playfair Display";
+    text-align: left;
+
+
+}
+.section1 .article1 p img{
+    float: left;
+    width: 200px;
+    padding-right: 20px;
+}
+  
+
+.section1 .article2{
+    margin-bottom: 20px;
+    width: 680px;
+}
+.section1 .article2 h3{
+    text-align: center;
+    color: gray;
+}
+
+.section1 .article2 p{
+    color: gray;
+    text-align: left;
+    font-size: 1em;
+}
+.section1 .article2 p img{
+    float: right;
+    width: 200px;
+    padding-left: 20px;
+}
+
+/************************/
+.clear{
+    clear: left;
+}
+ 
+/**********Section2************/
+.section2{
+   background-image: url(img/background_section.jpg);
+   background-position:top right;
+   margin-left: 10px;
+   margin-right: 10px;
+   width: 100%;
+   max-height:1000px ;  
+}
+
+
+
+.section2 .article1,.article2,.article3{
+    display: inline-block;
+    width:30%;
+    padding-left: 15px;
+    vertical-align: top;
+    margin-bottom: 40px;
+
+
+
+}
+
+.section2 .article1 p,.article2 p,.article3 p{
+    font-size: 0.8em;
+    text-align: center;
+    color:white;
+    font-family: "Playfair Display";
+}
+.section2 .article1 h4,.article2 h4,.article3 h4{
+    text-align: center;
+    color: white;
+
+
+}
+
+
+.section2 .article1 img,.article2 img,.article3 img{
+    width: 80px;
+    padding-left: 30%;
+}
+
+/**********************/
+
+
+
+/******FOOOTER*******/
+footer{
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    background-color:#8D6FD1;
+    margin-left: 8px;
+    margin-top: 0px;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}
+footer p{
+    margin: 0;
+    font-size: 0.6em;
+}
+/********************/

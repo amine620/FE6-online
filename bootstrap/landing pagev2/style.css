@@ -1,0 +1,57 @@
+html, body {
+    max-width: 100%;
+    
+    overflow-x: hidden;
+}
+body{
+    margin:0;
+    padding: 0;
+}
+.headerSection{
+    height: 100vh;
+    background-image: url(img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    padding: 0 50px;
+
+}
+[class*='bi']{
+    font-size: 50px;
+}
+.icon-grid{
+    padding: 90px 0;
+}
+
+.showcase .paragraph{
+    box-sizing: border-box; /* new line*/
+    padding: 200px 50px;
+
+}
+.showcase-img{
+    padding: 200px 50px; /*new line*/
+}
+
+.feedback img{
+    
+    width: 200px;
+    height: 200px;
+}
+.feedback{
+    padding: 100px 20px;
+}
+.footerSection{
+    padding: 100px 50px;
+     background-image: url(img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+}
+footer{
+    padding: 60px 10px;
+}

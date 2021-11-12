@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body{
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h4, h5, h6 {
+    font-family: Popins;
+}
+p{
+    font-family: Roboto;
+}
+#content,#watch-pack{
+    background-color: whitesmoke;
+}
+footer{
+    height: 300px;
+}
+
+.animate__animated.animate__bounce {
+ animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}

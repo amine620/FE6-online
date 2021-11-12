@@ -1,0 +1,232 @@
+/**{
+    box-sizing: border-box;
+}*/
+.clm{
+    float: left;
+    width:50%;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0;
+}
+.clm img{
+    width:790px;
+    padding: 0;
+    margin:0;
+
+
+}
+div h1{
+    text-align: center;
+    font-family:'Blacksword',sans-serif;
+    font-size: 4em;
+    color: rgb(116, 116, 116);
+
+}
+.paragraph1{
+    padding-left: 350px;
+    padding-right:350px;
+}
+.paragraph1 p{
+    font-family: 'cardo',serif;
+    line-height: 40px;
+    text-indent: 25px;
+    word-spacing: 5px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+
+}
+div h2{
+    text-align: center;
+    margin-right: 600px;
+    font-family:'Blacksword',sans-serif;
+    font-size: 2.5em;
+    color: rgb(116, 116, 116);
+
+
+}
+.paragraph2{
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.paragraph2 p{
+    font-family: 'cardo',serif;
+    margin-top: -40px;
+    word-spacing: 5px;
+    line-height: 40px;
+    text-indent: 25px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+
+
+}
+.custom-title h2{
+    text-align:center;
+    margin-right: 750px;
+    color: rgb(116, 116, 116);
+
+}
+.paragraph3{
+    padding-left: 350px;
+    padding-right: 350px;
+} 
+.paragraph3 p{
+    font-family: 'cardo',serif;
+    margin-top: -40px;
+    word-spacing: 5px;
+    line-height: 40px;
+    text-indent: 25px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+
+}
+div h3{
+    text-align: center;
+    margin-right: 700px;
+    font-family:'Blacksword',sans-serif;
+    font-size:1.5em;
+    color: rgb(116, 116, 116);
+    
+
+}
+.paragraph4{
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.paragraph4 p{
+    font-family: 'cardo',serif;
+    margin-top: -20px;
+    word-spacing: 5px;
+    line-height: 40px;
+    text-indent: 25px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+
+    }
+    span{
+        color:lightcoral;
+    }
+    .paragraph5{
+        padding-right:350px ;
+        padding-left: 350px;
+    }
+    .paragraph5 p{
+    font-family: 'cardo',serif;    
+    margin-top: -20px;
+    word-spacing: 5px;
+    line-height: 40px;
+    text-indent: 25px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+
+
+    }
+    .paragraph6{
+        padding-left: 350px;
+        padding-right: 350px;
+
+    }
+    .paragraph6 p{
+    font-family: 'cardo',serif;    
+    margin-top: -20px;
+    word-spacing: 5px;
+    line-height: 40px;
+    text-indent: 25px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+
+     }
+     .paragraph7{
+         padding-left: 350px;
+         padding-right: 350px;
+     }
+     .paragraph7 p{
+        font-family: 'cardo',serif;    
+        margin-top: -20px;
+        word-spacing: 5px;
+        line-height: 40px;
+        text-indent: 25px;
+        color: rgb(116, 116, 116);
+        text-align: center;
+
+     }
+     .paragraph8{
+        padding-left: 350px;
+        padding-right: 350px;
+}
+.paragraph8 p{
+    font-family: 'cardo',serif;    
+    margin-top: -20px;
+    word-spacing: 5px;
+    line-height: 40px;
+    text-indent: 25px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+
+
+}
+.paragraph9{
+        padding-left: 350px;
+        padding-right: 350px;
+
+}
+.paragraph9 p{
+    font-family: 'cardo',serif;    
+    margin-top: -20px;
+    word-spacing: 5px;
+    line-height: 40px;
+    text-indent: 25px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+
+}
+.paragraph10{
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.paragraph10 p{
+    font-family: 'cardo',serif;    
+    margin-top: -20px;
+    word-spacing: 5px;
+    line-height: 40px;
+    text-indent: 25px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+
+}
+.paragraph11{
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.paragraph11 p{
+    font-family: 'cardo',serif;    
+    margin-top: -20px;
+    word-spacing: 5px;
+    line-height: 40px;
+    text-indent: 25px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+
+}
+.quot{
+    padding-left: 350px;
+    padding-right: 350px;
+
+}
+.quot p{
+    color: rgb(116, 116, 116);
+    font-size: 30px;
+    font-family: 'Cardo', serif;
+
+}
+.author{
+    padding-left: 600px;
+}
+.author p{
+    text-align: center;
+    color: rgb(116, 116, 116);
+    font-size: 19px;
+    font-family: 'Cardo', serif;
+
+}
+
+

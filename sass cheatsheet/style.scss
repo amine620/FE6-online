@@ -1,0 +1,27 @@
+@import 'mainStyle';
+
+
+
+section{
+    background-color: gray;
+    height: 200px;
+    padding: 0 20px;
+
+    h1{
+        color: wheat;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+      
+     
+    }
+    .btn-primary{
+       @extend .basicStyle;
+        background-color: blue;
+    }
+     .btn-warning{
+        @extend .basicStyle;
+        background-color: orange;
+    }
+}

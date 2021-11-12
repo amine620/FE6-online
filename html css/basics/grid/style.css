@@ -1,0 +1,32 @@
+:root{
+  --border:1px solid black;
+}
+
+.wrapper , .boxes{
+   border: var(--border);
+}
+.boxes:nth-child(odd){
+  background-color: #ddd;
+}
+.boxes{
+  padding: 10px;
+}
+.parent p{
+  background-color: violet;
+}
+.wrapper{
+  display: grid;
+  grid-template-columns:2fr 1fr;
+  /* grid-column-gap: 20px;
+  grid-row-gap: 20px; */
+  grid-gap: 20px;
+ 
+  
+}
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  
+ 
+}

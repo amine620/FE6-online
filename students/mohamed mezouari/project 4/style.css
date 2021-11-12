@@ -1,0 +1,173 @@
+body{
+    background-image: url(img/fond.png);
+    font-family: unset;
+    color: #4A505A;
+}
+
+@font-face {
+    font-family: title;
+    src: url(Slabo27px-Regular.ttf);
+}
+@font-face {
+    font-family: paragraph;
+    src: url(OpenSans-Light.ttf);
+}
+p{
+    font-family: paragraph;
+}
+/***********header*************/
+header{
+    margin-top: 45px;
+    background-color: #25B3B4;
+    text-align: center;
+    border: 3px solid #0e9292
+}
+
+header img{
+    width: 150px;
+    height: 70px;
+}
+
+header nav{
+    margin-bottom: 15px;
+    font-size: small;
+}
+
+header nav a{
+    font-family: title;
+    margin: 15px;
+    color: white;
+}
+
+/************div**********/
+
+div{
+    margin:auto;
+    max-width: 700px;
+    text-align: center;
+}
+div h1{
+    font-family: title;
+
+}
+
+/***************************main************************/
+
+main{
+    margin: auto;
+    margin-top: 50px;
+    max-width: 1100px;
+    min-width: 800px;
+    text-align: center;
+}
+
+/*********main section**********/
+
+section{
+    padding-top: 15px;
+    background-color: #B6DEDC;
+    width: 69%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+section h1{
+    font-family: title;
+}
+section h1 span{
+    color: #2C9AA0;
+}
+
+section i{
+    color: #2C9AA0;
+    margin: 10px;
+}
+
+section article p{
+    text-align: left;
+}
+section article img{
+    width: 100px;
+    float: left;
+    border-radius: 50%;
+    margin: 10px;
+}
+section article button{
+    background-color: #25B3B4;
+    width: 120px;
+    height: 30px;
+    margin-left: 200px;
+    border: 0px;
+}
+section article button p{
+    color: white;
+    margin: 0;
+}
+
+
+section article h3{
+    font-family: title;
+}
+
+#article1{
+    text-align: center;
+    width: 40%;
+    display: inline-block;
+}
+
+
+#article2{
+    text-align: center;
+    width: 40%;
+    display: inline-block;
+    margin-left: 20px;
+}
+button{
+    color: white;
+}
+
+/*********main div**********/
+
+main aside{
+    border: 3px solid #0e9292;
+    margin-left: 20px;
+    display: inline-block;
+    width: 28%;
+    background-color: #25B3B4;
+    text-align: left;
+}
+main aside h2,i,p{
+    margin-left: 15px;
+}
+aside p{
+    color: rgb(201,235,235);
+}
+main aside h2{
+    font-family: title;
+    color: white;
+   
+}
+aside h2 span{
+  color: rgb(182,222,220)
+}
+
+main aside img{
+    float: right;
+    width: 120px;
+    height: 120px;
+    margin-right: -40px;
+    margin-top: -40px;
+}
+
+/**********footer**********/
+
+footer{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 1100px;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,12 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap'); */
+
+@font-face {
+    font-family: 'myNewFont';
+    src: url(RemachineScript_Personal_Use.ttf);
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;;
+    font-size: 3rem;
+    text-align: center;
+}

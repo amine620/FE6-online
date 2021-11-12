@@ -1,0 +1,43 @@
+
+
+nav{
+    
+    margin: auto;
+    width: 50%;
+}
+
+nav .nav-list{
+    display: inline-block;
+    margin: 0 40px;
+}
+.menu{
+    background-color: rgba(0, 119, 255, 0.863);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top:50px;
+    display:none
+}
+.sous-menu{
+    width: 45%;
+    display: inline-block;
+    margin-left: 36px;
+    text-align: center;
+}
+.sous-menu ul li{
+    list-style: none;
+}
+
+nav .nav-list:hover .menu{
+    display: block;
+}
+
+
+a{
+    color: green;
+}
+.nav-list a:hover{
+    background-color: blue;
+    padding: 20px;
+    color: red;
+}

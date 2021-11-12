@@ -1,0 +1,101 @@
+
+body{
+    background-image: url(img/fond.png);
+    margin: 0;
+}
+
+                              /* header part */
+header{
+    background-color: #B8CB21;
+    margin: 0;
+}
+
+header nav  {
+ font-size: 1.3em;
+ float: right;
+ margin-top: 50px;
+ font-family: "Oswald";
+}
+
+header nav a
+{
+    margin-right: 18px;
+    color:rgb(45,71,34)
+}
+
+                 /* end header */
+
+
+
+
+                 /* main part */
+
+main{
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: white;
+  
+}
+main section{
+   margin-left: 10px;
+   margin-right: 10px;
+   margin: 0 10px;
+}
+main section article h1{
+    font-family: 'Oswald';
+}
+main section article img{
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+  
+
+}
+main section article p{
+    color: grey;
+    font-size: 19px;
+}
+main section article button{
+    float: right;
+    background-color: #B8CB21;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+main section article ul{
+     color: grey;
+    font-size: 19px;
+}
+main section article h1{
+    color: #B8CB21;
+}
+
+
+
+.clear{
+    clear: right;
+}
+
+/* end main */
+
+/* footer part */
+
+
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    width: 80%;
+    margin: 10px auto;
+}
+footer img{
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+footer p{
+    margin: 0;
+}
+

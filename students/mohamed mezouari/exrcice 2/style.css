@@ -1,0 +1,62 @@
+body{
+    background-image: url(bunting.png);
+    background-repeat: repeat-x;
+    color: rgb(88, 85, 85);
+}
+
+div{
+    margin-top: 100px;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+@font-face {
+    font-family:my first font;
+    src: url(Blacksword.otf);
+}
+
+@font-face {
+    font-family: my op font;
+    src: url(cardo/cardo-italic.woff);
+}
+
+@font-face {
+    font-family: my regular ;
+    src: url(cardo/cardo-regular.woff);
+}
+p{
+    text-indent: 20px;
+     font-family: my regular;
+
+}
+/* header part */
+h1{
+    text-align: center;
+    font-family: my first font;
+}
+h2{
+    font-family: my first font;
+}
+h3{
+    font-family: my first font;
+}
+
+#H3{
+    text-align: center;
+    font-family: my op font;
+
+}
+
+#H6{
+    text-align:right;
+    font-family: my op font;
+}
+h6{
+    text-align: center;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.pop{
+    color :rgb(255, 192, 203)
+}

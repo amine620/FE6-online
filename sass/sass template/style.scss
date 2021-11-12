@@ -1,0 +1,61 @@
+
+@import 'variables';
+@import 'buttons';
+@import 'configStyle';
+
+header{
+    height: 600px;
+    background-color: $primary-color;
+
+    h1{
+        color: white;
+        font-family: $font;
+        
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+
+        ul{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+             color: white;
+        }
+        a{
+            margin: 10px;
+            padding: 10px;
+            display: inline-block;
+           
+        }
+    }
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 80px;
+    
+    h1{
+        font-size: 50px;
+    }
+    p{
+        color: white;
+        line-height: 1.5;
+    }
+
+    img{
+        width: 50%;
+    }
+    .btn-primary{
+        @extend .btn;
+        background-color: lighten($primary-color,10);
+    }
+    .btn-secondary{
+        @extend .btn;
+        background-color: $secondary-color;
+    }
+}

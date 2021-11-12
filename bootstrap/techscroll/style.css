@@ -1,0 +1,17 @@
+h1,h2,h3,h4,h4,h5,h6{
+    font-family: Popins;
+}
+p{
+    font-family: Roboto;
+}
+.navbar-brand{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+#showcase2{
+    background-color: whitesmoke;
+}
+.watches-list{
+    background-color: whitesmoke;
+}

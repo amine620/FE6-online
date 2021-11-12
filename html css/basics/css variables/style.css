@@ -1,0 +1,47 @@
+
+:root{
+    --myBlackBorder:3px dotted black;
+    --backgroundAqua:rgb(200, 255, 0);
+    --backgroundBrown:brown;
+    --pixelValue:50px;
+    --shadow: 10px 10px 8px 10px #888888;
+    /* --backgroundInfo:center no-repeat cover url('photo.jpeg') */
+}
+
+
+
+/* body{
+  
+    background: var(--backgroundInfo);
+    padding-top: var(--pixelValue);
+} */
+
+h1{
+    --shadow:10px 10px 8px 10px #c03636;
+      box-shadow:var(--shadow);
+}
+h2{
+    box-shadow: var(--shadow);
+}
+.firstDivition{
+    margin-top: var(--pixelValue);
+    border: var(--myBlackBorder) ;
+    background-color: var(--backgroundAqua);
+
+}
+.firstDivition p {
+    border:var(--myBlackBorder) ;
+    background-color: var(--backgroundBrown);
+
+}
+
+.secondDivition{
+    margin-top:var(--pixelValue);
+    border: var(--myBlackBorder);
+    background-color: var(--backgroundBrown)
+}
+
+.secondDivition p{
+    border: var(--myBlackBorder);
+    background-color: var(--backgroundAqua);
+}
